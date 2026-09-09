@@ -1,0 +1,35 @@
+:root { color-scheme: light dark; --tinta:#141416; --tenue:#6d6d68; --linea:#e4e4de;
+  --fondo:#f7f7f4; --tarjeta:#ffffff; }
+@media (prefers-color-scheme: dark) { :root { --tinta:#f2f2ef; --tenue:#9d9d97;
+  --linea:#2a2a2c; --fondo:#0f0f11; --tarjeta:#17171a; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--fondo); color:var(--tinta); font:15px/1.55
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+main { max-width:860px; margin:0 auto; padding:48px 22px 80px; }
+header a { color:var(--tenue); text-decoration:none; font-size:13px; }
+h1 { font-size:26px; font-weight:600; margin:22px 0 2px; letter-spacing:-0.01em; }
+h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--tenue);
+  margin:34px 0 10px; font-weight:600; }
+.sub { color:var(--tenue); margin:0 0 26px; }
+.obra { background:var(--tarjeta); border:1px solid var(--linea); border-radius:4px;
+  padding:34px; text-align:center; margin:0 0 30px; }
+.obra img { max-width:100%; max-height:340px; height:auto; object-fit:contain; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+td { padding:9px 0; border-bottom:1px solid var(--linea); vertical-align:top; }
+td:first-child { color:var(--tenue); width:180px; padding-right:16px; }
+code, .mono { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size:12.5px; word-break:break-all; }
+ul.arch { list-style:none; padding:0; margin:0; }
+ul.arch li { padding:9px 0; border-bottom:1px solid var(--linea); }
+ul.arch a { color:var(--tinta); }
+.nota { color:var(--tenue); font-size:12.5px; line-height:1.6; margin-top:34px;
+  border-top:1px solid var(--linea); padding-top:16px; }
+.estado { display:inline-block; font-size:12.5px; color:var(--tenue); }
+.lista { list-style:none; padding:0; margin:0; }
+.lista li { border-bottom:1px solid var(--linea); padding:14px 0; display:flex;
+  gap:16px; align-items:center; }
+.lista img { width:56px; height:56px; object-fit:contain; background:var(--tarjeta);
+  border:1px solid var(--linea); border-radius:3px; padding:5px; }
+.lista a { color:var(--tinta); text-decoration:none; font-weight:500; }
+.lista a:hover { text-decoration:underline; }
+.lista .meta { color:var(--tenue); font-size:12.5px; }
