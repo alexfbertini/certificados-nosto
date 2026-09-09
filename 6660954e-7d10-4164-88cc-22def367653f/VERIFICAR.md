@@ -120,4 +120,4 @@ Marca solicitada ante la DNPI (Uruguay), expediente 590460 en examen.
 
 Autor: Alex Flores Bertini — Punta del Este, Uruguay
 Titular: Alex Flores Bertini / Nosto Estudios
-Declarado: 9 de setiembre de 2026, 06:58 UTC
+Declarado: 9 de setiembre de 2026, 07:26 UTC
