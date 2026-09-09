@@ -1,0 +1,9 @@
+# Este repo es publico: el vectorial original y las claves no entran nunca.
+*.svg
+*.ai
+*.eps
+*.pdf
+*.key
+*.gpg
+private-keys-v1.d/
+.DS_Store
