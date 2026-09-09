@@ -64,7 +64,7 @@ el texto que está adentro del `.asc`**, no el `manifiesto.txt` suelto.
 pipx install opentimestamps-client       # o: pip install opentimestamps-client
 ```
 
-Estado al momento de generar este archivo: enviado a los calendarios de OpenTimestamps y **pendiente de confirmación**. La confirmación suele tardar entre unas horas y un día, y ocurre sola: el `.ots` se completa cuando el calendario publica su prueba en Bitcoin.
+Estado al momento de generar este archivo: **confirmado en el bloque N.º 966179 de Bitcoin** (2026-09-09 08:16 UTC).
 
 ### Si tenés un nodo Bitcoin
 
@@ -88,7 +88,7 @@ ots info manifiesto.txt.asc.ots | tail -3
 Las dos últimas líneas dicen en qué bloque está y con qué raíz de Merkle:
 
 ```
-verify BitcoinBlockHeaderAttestation(358391)
+verify BitcoinBlockHeaderAttestation(966179)
 # Bitcoin block merkle root <64 caracteres hexadecimales>
 ```
 
@@ -98,7 +98,7 @@ una sola cosa, que es mirar la cadena de bloques y confirmar que el bloque
 tiene esa raíz:
 
 ```sh
-BLOQUE=358391
+BLOQUE=966179
 HASH=$(curl -s https://blockstream.info/api/block-height/$BLOQUE)
 curl -s https://blockstream.info/api/block/$HASH | python3 -m json.tool | grep -E 'merkle_root|timestamp'
 ```
