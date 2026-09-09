@@ -5,8 +5,8 @@
   "autor": "Alex Flores Bertini",
   "titular": "Alex Flores Bertini / Nosto Estudios",
   "ubicacion": "Punta del Este, Uruguay",
-  "creada": "2024",
-  "declarado_utc": "2026-09-09T06:58:21Z",
+  "creada": "2026",
+  "declarado_utc": "2026-09-09T07:26:36Z",
   "obra": {
     "archivo": "nosto-monograma-principal.svg",
     "formato": "image/svg+xml",
@@ -32,6 +32,6 @@
     "estado": "solicitada, en examen",
     "leyenda": "Marca solicitada ante la DNPI (Uruguay), expediente 590460 en examen."
   },
-  "declaracion": "Yo, Alex Flores Bertini, con domicilio en Punta del Este, Uruguay, declaro bajo mi responsabilidad que soy el autor de la obra descrita en este manifiesto, que la cree en 2024, y que su titularidad corresponde a Alex Flores Bertini / Nosto Estudios. El archivo identificado por el SHA-256 indicado mas arriba es la obra en su forma original: cualquier archivo con ese mismo hash es esta obra, y cualquier cambio de un solo byte produce un hash distinto. Firmo esta declaracion con mi clave y la sello en la cadena de bloques de Bitcoin mediante OpenTimestamps, para dejar constancia de su existencia y de su contenido exacto a la fecha de declaracion indicada.",
+  "declaracion": "Yo, Alex Flores Bertini, con domicilio en Punta del Este, Uruguay, declaro bajo mi responsabilidad que soy el autor de la obra descrita en este manifiesto, que la cree en 2026, y que su titularidad corresponde a Alex Flores Bertini / Nosto Estudios. El archivo identificado por el SHA-256 indicado mas arriba es la obra en su forma original: cualquier archivo con ese mismo hash es esta obra, y cualquier cambio de un solo byte produce un hash distinto. Firmo esta declaracion con mi clave y la sello en la cadena de bloques de Bitcoin mediante OpenTimestamps, para dejar constancia de su existencia y de su contenido exacto a la fecha de declaracion indicada.",
   "alcance": "Alcance de esta prueba: acredita autoria declarada y anterioridad (que esta obra existia, con este contenido exacto, en la fecha sellada). No otorga por si misma derechos de marca ni sustituye un registro marcario."
 }
